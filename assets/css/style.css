@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.orange, .orange a{color: #fc5404 !important;}
 #header {
   position: fixed;
   top: 0;
@@ -352,7 +353,7 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   padding-bottom: 20px;
   position: relative;
   color: #fc5404;
@@ -388,13 +389,15 @@ section {
 #resume .col-lg-6:first-child{
   background-image: url(../img/bg1.png);
   background-repeat: no-repeat;
-  background-position: 80%, 15%;
-  background-size: 20%;
+  background-position: 80% 33%;
+  background-size: 30%;
+  padding-right: 40px;
 }
 #resume .col-lg-6:nth-child(2){
-  background: url(../img/bg2.png)no-repeat top 45% left 45%, url(../img/bg3.png)no-repeat top right;
+  background: url(../img/bg2.png)no-repeat 82% 87%, url(../img/bg3.png)no-repeat top right;
   background-size: 30%;
 }
+
 
 /*--------------------------------------------------------------
 # About
@@ -403,15 +406,17 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #557800;
+  margin-bottom: 30px;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  margin-top: 15px;
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
@@ -514,37 +519,40 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   color: #557800;
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 60px 20px;
   margin-top: -2px;
   border-left: 2px solid #fc5404;
   position: relative;
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
+  line-height: 20px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #fc5404;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
+  font-size: 13px; color: #fff;
+  background: #fc5404;
+  padding: 3px 10px;
   display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 10px; margin-left: 10px;
+  border-radius: 5px;
+  vertical-align: middle;
 }
 
 .resume .resume-item ul {
@@ -691,6 +699,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
+  width: 70%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
@@ -699,6 +708,10 @@ section {
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a img{
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
