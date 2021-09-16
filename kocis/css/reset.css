@@ -1,0 +1,16 @@
+@charset "utf-8";
+@font-face {
+  font-family: NanumSquare;
+  src: url(font/NanumSquareR.eot); 
+  src: local(NanumSquareR),
+       url(font/NanumSquareR.woff2) format('woff2'), 
+       url(font/NanumSquareR.woff) format('woff'), 
+       url(font/NanumSquareR.ttf) format('truetype');}
+*{margin: 0; padding: 0;}
+header, nav, footer, article, aside, figcaption, figure, section{display: block;}
+body{font-family: NanumSquare_acR, sans-serif; line-height: 1.35; font-size: 20px; color: #58585a;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+a{color: #58585a; text-decoration: none;}
+img{border: 0; vertical-align: top;}
+input, select, button{vertical-align: top;}
