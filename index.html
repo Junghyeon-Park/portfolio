@@ -49,7 +49,7 @@
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Story</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
         <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -285,8 +285,8 @@
                 <h4>Binggrae Responsive Web</h4>
                 <p>web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/binggrae_detail.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Binggrae"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/binggrae_detail.png" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                  <a href="https://junghyeon-park.github.io/Binggrae/"  target="_blank"><i class="bx bx-link"></i></a>
+                  <a href="assets/popup_Binggrae.html" class="portfolio-details-lightbox"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -299,7 +299,7 @@
                 <h4>Twosome Place Renewal</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/TWOSOME_detail.png" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                  <a href="assets/popup_Twosome.html" class="portfolio-details-lightbox"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -313,7 +313,7 @@
                 <p>Web</p>
                 <div class="portfolio-links">
                   <a href="https://junghyeon-park.github.io/KOCIS_redesign/" target="_blank"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/KOCIS_concept.png" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                  <a href="assets/popup_KOCIS.html" class="portfolio-details-lightbox"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -352,7 +352,7 @@
                 <h4>F1963 Brochure</h4>
                 <p>Editorial</p>
                 <div class="portfolio-links">
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                  <a href="assets/popup_F1963.html" class="portfolio-details-lightbox"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -395,7 +395,7 @@
                 <h4>Harrydan Leaflet</h4>
                 <p>Editorial</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/Harrydan_concept.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/popup_Harrydan.html" class="portfolio-details-lightbox"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -844,15 +844,15 @@
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div> -->
-      <div class="copyright">
+      <!-- <div class="copyright">
         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div>
+      </div> -->
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: [license-url] -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by JungHyeon Park
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -891,6 +891,18 @@
          $('#header span').addClass("orange");
         }else{
           $('#header span').removeClass("orange");
+        }
+
+        if(location >= 500){
+         $('.mobile-nav-toggle').addClass("orange");
+        }else{
+          $('.mobile-nav-toggle').removeClass("orange");
+        }
+
+        if(location >= 700){
+         $('#header').addClass("white");
+        }else{
+          $('#header').removeClass("white");
         }
       })
     });

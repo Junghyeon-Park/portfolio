@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   z-index: 999999 !important;
-  overflow: hidden;
+  /* overflow: hidden; */
   -ms-touch-action: none;
   touch-action: none;
   -webkit-text-size-adjust: 100%;
@@ -15,7 +15,6 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   outline: none;
-  overflow: hidden;
 }
 
 .glightbox-container.inactive {
@@ -314,7 +313,9 @@
 .glightbox-button-hidden {
   display: none;
 }
-
+.gslide-external img{
+  width: 100%;
+}
 
 /*
  * Description for mobiles
