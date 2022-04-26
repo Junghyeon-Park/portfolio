@@ -396,7 +396,7 @@ section {
   padding-right: 40px;
 }
 #resume .col-lg-6:nth-child(2){
-  background: url(../img/bg2.png)no-repeat 82% 87%, url(../img/bg3.png)no-repeat top right;
+  background: url(../img/bg2.png) no-repeat 82% 87%, url(../img/bg3.png) no-repeat top right;
   background-size: 30%;
 }
 
