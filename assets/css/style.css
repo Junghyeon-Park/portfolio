@@ -584,6 +584,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .frame{
+  border: 1px soli #45505b;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
